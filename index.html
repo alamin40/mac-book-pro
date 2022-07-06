@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-6">
+                        <img src="images/mac.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-6">
+                        <h1>Customize your blue 24-inch iMac with Aplle M1 chip</h1>
+                        <p>Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores, 7-core GPU,
+                            and 16-core Neural Engine 8GB unified memory 256GB SSD storage Two Thunderbolt / USB 4 ports
+                            Magic Mouse Magic Keyboard - US English</p>
+                        <div class="row">
+                            <div class="col-12 my-3">
+                                <h6 class=""><b>Memory</b></h6>
+                                <div class="btn-group" role="group" aria-label="Basic example">
+                                    <button type="button" class="btn border me-5" id="memory-first">8GB unified memory</button>
+                                    <button type="button" class="btn border" id="memory-second">16GB unified memory</button>
+                                </div>
+                            </div>
+                            <div class="col-12 my-3">
+                                <h6 class=""><b>Storage</b></h6>
+                                <div class="btn-group" role="group" aria-label="Basic example">
+                                    <button type="button" class="btn border me-3" id="storage-first">256GB SSD storage</button>
+                                    <button type="button" class="btn border me-3" id="storage-second">512GB SSD storage</button>
+                                    <button type="button" class="btn border" id="storage-third">1TB SSD storage</button>
+                                </div>
+                            </div>
+                            <div class="col-12 my-3">
+                                <h class=""><b>Choose your delivery option</b></h  6>
+                                <div class="btn-group" role="group" aria-label="Basic example">
+                                    <button type="button" class="btn border me-5" id="delivery-first">Wednesday, Aug 25 FREE Prime Delivery</button>
+                                    <button type="button" class="btn border" id="delivery-second">Saturday, Aug 22 Delivery Charge
+                                        $20</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mt-5 fw-bold">
+                            <div class="col-4">Best price</div>
+                            <div class="col-4 mt-2">$<span>1299</span> </div>
+                            <hr>
+                        </div>
+                        <div class="row fw-bold">
+                            <div class="col-4">Extra Memory cost</div>
+                            <div class="col-4 mt-2">$<span id="memory-cost">00</span></div>
+                            <hr>
+                        </div>
+                        <div class="row fw-bold">
+                            <div class="col-4">Extra Storage cost</div>
+                            <div class="col-4 mt-2">$<span id="storage-cost">00</span></div>
+                            <hr>
+                        </div>
+                        <div class="row fw-bold">
+                            <div class="col-4">Extra Delivery cost</div>
+                            <div class="col-4 mt-2">$<span id="delivery-cost">00</span></div>
+                            <hr>
+                        </div>
+                        <div class="row fw-bold">
+                            <div class="col-4">Total Price</div>
+                            <div class="col-4 mt-2">$<span id="total-price">1299</span></div>
+                            <hr>
+                        </div>
+                        <div class="col-4">add promo code</div>
+                        <input type="text" id="promo-filed">
+                        <button type="button" class="btn border" id="promo-code">Apply</button>
+                    </div>
+                </div>
+                <h2 class="text-center mt-5">Total Price: $<span id="final-total-price">00</span></h2>
+            </div>
+        </section>
+    </main>
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
