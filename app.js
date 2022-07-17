@@ -9,6 +9,8 @@ function cost(amount, filed){
 
         const total = document.getElementById('total-price');
         const totalAmount = parseInt(total.innerText);
+        const finalTotal = document.getElementById('final-total-price');
+        const finalTotalAmount = parseInt(finalTotal.innerText);
         const mCost = document.getElementById('memory-cost');
         const mCostAmount = parseInt(mCost.innerText);
         const sCost = document.getElementById('storage-cost');
@@ -17,6 +19,7 @@ function cost(amount, filed){
         const dCostAmount = parseInt(dCost.innerText);
     
         total.innerText =  mCostAmount + sCostAmount + dCostAmount + 1299;
+        finalTotal.innerText =  total.innerText;s
 
     
 }
